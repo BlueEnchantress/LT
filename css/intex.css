@@ -1,0 +1,245 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background-color: #ccc;
+}
+.box{
+	width: 100%;
+}
+.search{
+	width: 100%;
+	background-color:#006699;
+	text-align: center;
+	position: fixed;
+	top:0;
+	left: 0;
+}
+.search h3{
+	color: #fff;
+	font-weight: 400;
+	padding-top:12px; 
+	padding-bottom:12px; 
+
+}
+
+
+
+
+.clearfix:before,.clearfix:after{
+	content:"";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix:after{
+	zoom:1;
+}
+
+
+
+
+
+
+
+.content{
+	width: 100%;
+}
+.content .lbt{
+	background-color: #fff;
+	margin-top:49px; 
+}
+.content .lbt img{
+	width: 100%;
+	height: 100%;
+} 
+.content .classify ul{
+	background-color: #fff;
+	display: block;
+	box-sizing:border-box;
+	width: 100%;
+	padding-left:12px;
+	padding-right: 11px;
+	padding-top:8px;
+	padding-bottom:20px; 
+}
+.content .classify li{
+	float: left;
+	width: 33%;
+	height: 100%;
+}
+.content .classify img{
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+
+
+
+.content .sale{
+	width: 100%;
+	margin-top:1px;
+}
+.content .sale ul{
+	width: 100%;
+	background-color: #fff;
+	display: block;
+	box-sizing:border-box;
+	padding-left:12px;
+	padding-right: 12px;
+	padding-bottom:5px; 
+}
+.content .sale li{
+	float: left;
+	width: 33.48%;
+	height: 100%;
+}
+.content .sale li:nth-child(3){
+	float: right;
+	width: 32.95%;
+}
+.content .sale  img{
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+
+
+
+
+
+.brand{
+	width: 100%;
+}
+.brand .brandImg{
+	background-color: #fff;
+	width: 100%;
+	box-sizing:border-box;
+	padding-left:12px;
+	padding-right: 12px;
+}
+.brand .brandImg img{
+	width: 100%;
+	height: 100%;
+}
+.brand ul{
+	width: 100%;
+}
+.brand li{
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+.brand li img{
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+
+
+
+
+
+.sports{
+	margin-bottom:77px; 
+}
+
+.sports .sportsImg{
+	background-color: #fff;
+	width: 100%;
+	box-sizing:border-box;
+	padding-left:12px;
+	padding-right: 12px;
+}
+.sports .sportsImg img{
+	width: 100%;
+	height: 100%;
+}
+.sports .lb{
+	width: 100%;
+	box-sizing:border-box;
+	padding-left:12px;
+	padding-right: 12px;
+	background-color: #fff;
+}
+
+.sports ul{
+	width: 100%;
+	background-color: #fff;
+}
+.sports li{
+	text-align: center;
+	box-sizing:border-box;
+	float: left;
+	width: 49%;
+	height: 100%;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 5px 0.5px #ccc;
+}
+.sports li:first-child{
+	margin-right:1%;
+	margin-bottom:2%; 
+}
+.sports li:nth-child(2){
+	margin-left:1%;
+	margin-bottom:2%; 
+}
+.sports li:nth-child(3){
+	margin-right:1%;
+}
+.sports li:last-child{
+	margin-left:1%; 
+}
+
+
+.sports li img{
+	width: 100%;
+	height: 100%;
+}
+.sports li span{
+	color: #8f8f94;
+	font-size: 16px;
+}
+.sports li p{
+	color: red;
+	display:inline-block;
+	padding-left: 9px;
+	font-size: 14px;
+	margin-top:15px;
+	margin-bottom: 15px;
+}
+.sports li input{
+	background-color: #006699;
+	padding: 7px 15px;
+	color: #fff;
+	margin-bottom:15px; 
+	border: 0.8px solid #ccc;
+
+}
+
+
+
+
+
+
+.menu{
+	width: 100%;
+	background-color: #006699;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.menu ul{
+	width: 100%;
+}
+.menu li{
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+.menu li img{
+	width: 100%;
+}
